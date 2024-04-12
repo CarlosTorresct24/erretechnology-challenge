@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.background {
+  background-color: #023e8a;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.menu-right {
+  width: 550px;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-menu {
+  width: 400px;
+  height: 450px;
+}
+
+.register-menu {
+  width: 400px;
+  height: 590px;
+}
+
+.login-menu-reset {
+  width: 400px;
+  height: 320px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0px 0px 40px 0px;
+  color: #023e8a;
+}
+
+.secondary-title {
+  margin: 0px 0px 20px 0px;
+  font-size: 18px;
+}
+
+.remember-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkbox-section {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox {
+  height: 15px;
+  width: 15px;
+  background-color: white;
+  border: 1px solid #023e8a;
+  margin: 0px 5px 0px 0px;
+  cursor: pointer;
+}
+
+.checkbox:hover {
+  background-color: #023e8a;
+}
+
+.remember {
+  color: rgb(69, 69, 69);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.reset {
+  font-size: 12px;
+  color: #023e8a;
+  cursor: pointer;
+}
+
+.no-account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px 0px 0px;
+}
+
+.phrase1 {
+  color: rgb(181, 181, 181);
+  font-size: 12px;
+}
+
+.phrase2 {
+  color: #023e8a;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 0px 0px 0px 2px;
+}

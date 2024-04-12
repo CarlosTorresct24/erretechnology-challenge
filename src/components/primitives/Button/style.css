@@ -1,0 +1,10 @@
+.btn-main {
+    height: 45px;
+    background-color: #023e8a;
+    width: 400px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px 0px 10px 0px;
+    text-transform: uppercase;
+}
